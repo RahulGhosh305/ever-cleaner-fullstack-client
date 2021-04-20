@@ -8,7 +8,7 @@ const MakeAdmin = () => {
     const onSubmit = email => {
         const adminEmail = email
         
-        fetch('http://localhost:5000/makeAdmin', {
+        fetch('https://fast-springs-42794.herokuapp.com/makeAdmin', {
             method : "POST",
             headers : {
                 "Content-type" : "application/json",

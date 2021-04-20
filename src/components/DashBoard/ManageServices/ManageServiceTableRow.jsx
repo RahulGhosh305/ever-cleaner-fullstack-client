@@ -4,7 +4,7 @@ const ManageServiceTableRow = (props) => {
     const {title, imageURL, _id} = props.singleManage
 
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/deleteService/${id}`,{
+        fetch(`https://fast-springs-42794.herokuapp.com/deleteService/${id}`,{
             method: 'DELETE'
         })
         .then(res => res.json())

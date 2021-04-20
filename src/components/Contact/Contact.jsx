@@ -6,7 +6,7 @@ const Contact = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
 
-        fetch('http://localhost:5000/sentMessageWithForm', {
+        fetch('https://fast-springs-42794.herokuapp.com/sentMessageWithForm', {
             method : "POST",
             headers : {
                 "Content-type" : "application/json",

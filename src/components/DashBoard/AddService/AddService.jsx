@@ -13,7 +13,7 @@ const AddService = () => {
             imageURL : imageURL,
         }
 
-        const URL = `http://localhost:5000/addService`;
+        const URL = `https://fast-springs-42794.herokuapp.com/addService`;
         fetch(URL, {
             method : 'POST',
             headers : {

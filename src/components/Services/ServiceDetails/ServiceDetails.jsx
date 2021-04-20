@@ -14,7 +14,7 @@ const ServiceDetails = () => {
 
     const { id } = useParams()
     useEffect(() => {
-        fetch(`http://localhost:5000/getSingleService/${id}`)
+        fetch(`https://fast-springs-42794.herokuapp.com/getSingleService/${id}`)
             .then(res => res.json())
             .then(data => setServiceDetail(data[0]))
     }, [id])
@@ -48,7 +48,7 @@ const ServiceDetails = () => {
     const handleBooking = (bookToOrder) => {
         const allBookingData = {...bookToOrder,price}
         console.log(allBookingData)
-        fetch('http://localhost:5000/addBook', {
+        fetch('https://fast-springs-42794.herokuapp.com/addBook', {
             method : 'POST',
             headers : {
                 'content-type' : 'application/json',

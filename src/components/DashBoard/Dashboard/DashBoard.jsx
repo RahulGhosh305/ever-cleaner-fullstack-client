@@ -17,7 +17,7 @@ const DashBoard = () => {
     console.log(checkAdmin)
 
     useEffect( ()=>{
-        fetch(`http://localhost:5000/getAdmin?email=`+loggedInUser.email)
+        fetch(`https://fast-springs-42794.herokuapp.com/getAdmin?email=`+loggedInUser.email)
         .then(res => res.json())
         .then(emails => setCheckAdmin(emails))
     },[loggedInUser.email])

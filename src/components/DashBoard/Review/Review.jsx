@@ -16,7 +16,7 @@ const Review = () => {
         }
         console.log(reviewData)
 
-        fetch('http://localhost:5000/addReview', {
+        fetch('https://fast-springs-42794.herokuapp.com/addReview', {
             method : 'POST',
             headers : {
                 'content-type' : 'application/json',

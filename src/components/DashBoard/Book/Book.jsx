@@ -21,7 +21,7 @@ const Book = () => {
         const margeAllData = {...paymentMethod,...data}
         console.log(margeAllData)
 
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://fast-springs-42794.herokuapp.com/addOrder', {
             method : "POST",
             headers : {
                 "content-type" : "application/json",

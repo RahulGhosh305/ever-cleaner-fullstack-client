@@ -4,7 +4,7 @@ import ManageServiceTableRow from './ManageServiceTableRow';
 const ManageService = () => {
     const [manageService, setManageService] = useState([])
     useEffect( () => {
-        fetch('http://localhost:5000/getManageService/')
+        fetch('https://fast-springs-42794.herokuapp.com/getManageService/')
         .then(res => res.json())
         .then(data => setManageService(data))
     },[])
