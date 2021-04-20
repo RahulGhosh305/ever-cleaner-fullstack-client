@@ -1,0 +1,30 @@
+ul{
+    display: flex;
+}
+.topIcon{
+    list-style-type: none;
+    margin-left: 8px;
+    font-size: 20px;
+}
+.iconUnorderList{
+    margin-bottom: 0px;
+}
+#nav{
+    padding-top: 0px;
+}
+ul li{
+    font-weight: 500;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+ul .listItem:hover{
+    background-color: rgb(245, 163, 69);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
