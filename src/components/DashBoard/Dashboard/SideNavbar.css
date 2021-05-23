@@ -1,0 +1,18 @@
+.custom-link{
+    background-color: rgb(163, 162, 162);
+    list-style-type: none;
+    margin-top: 10px;
+    box-shadow: 2px 2px 3px #333;
+}
+.sideNavbarLink{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+    color: #000;
+    padding: 6px 0px;
+}
+.sideNavbarLink:hover{
+    text-decoration: none;
+    color: #fff;
+}
